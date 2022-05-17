@@ -21,8 +21,7 @@ router.route('/add').post((req, res) => {
         username,
         email,
         password,
-       
-       
+
     });
 
     newUser.save()
